@@ -235,9 +235,9 @@
             opLink: null,
             rulesLink: null,
             themeLink: null,
-            fbLink: null,
+            fbLink: true,,
             youtubeLink: null,
-            website: null,
+            website: true,
             intervalMessages: [],
             messageInterval: 5,
             songstats: true,
@@ -2967,7 +2967,7 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                        if (typeof basicBot.settings.website === "string")
+                        if (typeof basicBot.settings.website === "http://www.faval.eu/")
                             API.sendChat(subChat(basicBot.chat.website, {link: basicBot.settings.website}));
                     }
                 }
