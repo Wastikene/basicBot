@@ -183,7 +183,7 @@
         status: false,
         name: "FavalBot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
+        scriptLink: "https://rawgit.com/Wastikene/basicBot/patch-3/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
         chatLink: "https://rawgit.com/Wastikene/basicBot/patch-3/lang/en.json",
         chat: null,
