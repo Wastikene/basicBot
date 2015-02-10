@@ -179,11 +179,11 @@
     var botCreatorIDs = ["3851534", "3934992", "4105209"];
 
     var basicBot = {
-        version: "01",
+        version: "2.2.1",
         status: false,
-        name: "favalbot",
+        name: "basicBot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/Wastikene/basicBot/patch-3/basicBot.js",
+        scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
         chatLink: "https://rawgit.com/Wastikene/basicBot/patch-3/lang/en.json",
         chat: null,
@@ -191,7 +191,7 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "favalbot",
+            botName: "basicBot",
             language: "english",
             chatLink: "https://rawgit.com/Wastikene/basicBot/patch-3/lang/en.json",
             startupCap: 1, // 1-200
@@ -235,9 +235,9 @@
             opLink: null,
             rulesLink: null,
             themeLink: null,
-            fbLink: true,,
+            fbLink: null,
             youtubeLink: null,
-            website: true,
+            website: null,
             intervalMessages: [],
             messageInterval: 5,
             songstats: true,
