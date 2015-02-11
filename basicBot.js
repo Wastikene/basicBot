@@ -179,7 +179,7 @@
     var botCreatorIDs = ["3851534", "3934992", "4105209"];
 
     var basicBot = {
-        version: "2.2.1",
+        version: "0.1",
         status: false,
         name: "basicBot",
         loggedInID: null,
@@ -235,9 +235,9 @@
             opLink: null,
             rulesLink: null,
             themeLink: null,
-            fbLink: true,
+            fbLink: false,
             youtubeLink: null,
-            website: true,
+            website: false,
             intervalMessages: [],
             messageInterval: 5,
             songstats: true,
@@ -1778,7 +1778,7 @@
 
             dclookupCommand: {
                 command: ['dclookup', 'dc'],
-                rank: 'user',
+                rank: 'bouncer',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
