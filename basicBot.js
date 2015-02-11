@@ -184,7 +184,7 @@
         name: "FavalBot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/Wastikene/basicBot/patch-3/basicBot.js",
-        cmdLink: "http://git.io/245Ppg",
+        cmdLink: "http://www.faval.eu/t1753-plug-dj-faval#50094",
         chatLink: "https://rawgit.com/Wastikene/basicBot/patch-3/lang/en.json",
         chat: null,
         loadChat: loadChat,
