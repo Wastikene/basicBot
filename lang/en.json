@@ -8,8 +8,8 @@
     "online": "/me %%BOTNAME%% v%%VERSION%% online!",
 
 
-    "welcome": "/me Tere tulemast! %%NAME%%",
-    "welcomeback": "/me Tere tagasi, %%NAME%%",
+    "welcome": "/me Tere tulemast! @%%NAME%%",
+    "welcomeback": "/me Tere tagasi, @%%NAME%%",
     "songknown": "/me :repeat: See laul oli %%PLAYS%% korda %%TIMETOTAL%% ajal, viimati mängis %%LASTTIME%% tagasi. :repeat:",
     "timelimit": "/me @%%NAME%%, Su laul on pikkem kui %%MAXLENGTH%% minutes, minutid.",
     "permissionownsong": "/me :up: @%%NAME%% has permission to play their own production!",
