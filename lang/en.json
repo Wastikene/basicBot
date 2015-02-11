@@ -10,7 +10,7 @@
 
     "welcome": "/me Tere tulemast! @%%NAME%%",
     "welcomeback": "/me tere tulemast tagasi, @%%NAME%%",
-    "songknown": "/me :repeat: See laul oli %%PLAYS%% kord(a) %%TIMETOTAL%% ajal, viimati mängis %%LASTTIME%% tagasi. :repeat:",
+    "songknown": "/me :repeat: See laul oli %%PLAYS%% kord(a) viimase %%TIMETOTAL%% ajal, viimati mängis %%LASTTIME%% tagasi. :repeat:",
     "timelimit": "/me @%%NAME%%, Su laul on pikkem kui %%MAXLENGTH%% minutes, minutid.",
     "permissionownsong": "/me :up: @%%NAME%% has permission to play their own production!",
     "isblacklisted": "/me This track is on the %%BLACKLIST%% blacklist! Skipping...",
