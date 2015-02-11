@@ -179,7 +179,7 @@
     var botCreatorIDs = ["3851534", "3934992", "4105209"];
 
     var basicBot = {
-        version: "2.2.1",
+        version: "0.1",
         status: false,
         name: "FavalBot",
         loggedInID: null,
@@ -235,9 +235,9 @@
             opLink: null,
             rulesLink: null,
             themeLink: null,
-            fbLink: false,
+            fbLink: true,
             youtubeLink: null,
-            website: false,
+            website: true,
             intervalMessages: [],
             messageInterval: 5,
             songstats: true,
@@ -1778,7 +1778,7 @@
 
             dclookupCommand: {
                 command: ['dclookup', 'dc'],
-                rank: 'user',
+                rank: 'bouncer',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
@@ -2968,7 +2968,7 @@
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
                         if (typeof basicBot.settings.website === "http://www.faval.eu/")
-                            API.sendChat(subChat(basicBot.chat.website, {link: basicBot.settings.website}));
+                            API.sendChat(subChat(basicBot.chat.website, {link: "http://www.faval.eu/"}));
                     }
                 }
             },
